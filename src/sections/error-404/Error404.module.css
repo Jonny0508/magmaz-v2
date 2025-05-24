@@ -1,0 +1,33 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 70px; 
+    height: 100vh;
+    margin: 0;             
+    position: relative;
+    color: #ffffff ;
+    background: radial-gradient(circle at left bottom,#221353 5% ,#090614 25%, #090614 75%);
+}
+
+.image {
+    align-items: center;
+    position: relative;
+    right: 25px;
+}
+
+.title{
+    font-weight: 700;
+    font-size: 72px;
+    background: linear-gradient(to right, #1e1915 5%, #ebebeb 85%); /* Gradiente lineal */
+    -webkit-background-clip: text;  /* Aplica el fondo al texto */
+    -webkit-text-fill-color: transparent; 
+}
+
+.parrafo{
+    font-weight: 400;
+    font-size: 22px;
+    text-align: center;
+}
