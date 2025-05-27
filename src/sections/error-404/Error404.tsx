@@ -6,7 +6,7 @@ export default function Error404() {
         <>
         <div className={styles.container}>
             <div>
-                <Image  src="/images/Proyect/error404.png" className={styles.image} alt="hero" width={484} height={454}  />
+                <Image  src="/images/error404.png" className={styles.image} alt="hero" width={484} height={454}  />
             </div>
             <div>
                 <h1 className={styles.title}>Pagina no encontrada</h1>
