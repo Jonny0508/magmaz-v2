@@ -1,0 +1,41 @@
+.GoPlans {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: auto;
+    margin: 0;
+    position: relative;
+    width: auto;
+    height: 665.75px;
+    color: #fff;
+    background: radial-gradient(circle at center left,#49358d 10% ,#301c78 25%, #301c78 65%);
+    /*radial-gradient(circle at bottom right,#49358d 10% ,#301c78 25%, #49358d 65%);^*/
+}
+
+.contentGoplans {
+    max-width: 50%;
+    margin-left: 180px;
+    margin-top: -30px;
+
+}
+
+.contentGoplans h1{  
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 50.4px;
+}
+
+.contentGoplans p {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26.4px;
+    margin-bottom: 50px;
+    margin-top: -20px;
+}
+
+ .imageGoPlans {
+    max-width: 100%;
+    left: -250px;
+    position: relative;
+    
+}

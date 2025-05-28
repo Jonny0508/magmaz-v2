@@ -1,0 +1,41 @@
+.benefits {
+    color: #fff;
+    padding: 70px 10px;
+    margin: 0;
+    background: radial-gradient(circle at top left,#221353 5% ,#090614 25%, #090614 75%);
+}
+
+.benefits .h2 {
+    font-weight: 600;
+    font-size: 42px;
+    line-height: 50.4px;
+    position: relative;
+    left: 655px;
+    background: linear-gradient(to right, #8061e7 5%, #b7a3f0 85%); /* Gradiente lineal */
+    -webkit-background-clip: text;  /* Aplica el fondo al texto */
+    -webkit-text-fill-color: transparent; 
+    padding: 10px;
+    
+}
+
+.benefits .p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    margin-left: -70px;
+
+}
+
+.articleContainer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    width: 80%;
+    max-width: 800px;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-left: 525px;
+    
+    
+}

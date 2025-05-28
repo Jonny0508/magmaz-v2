@@ -1,0 +1,16 @@
+.footer {
+   background: radial-gradient(circle at center,#221353 5% ,#090614 80%);
+    color: #fff;
+    text-align: center;
+    padding: 70px 0 1px;
+    height: 250px;
+    margin: 0;
+  }
+
+
+.footer p {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21.6px;
+
+  }

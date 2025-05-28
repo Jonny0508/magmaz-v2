@@ -1,0 +1,40 @@
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 70px; 
+    margin: 0;             
+    position: relative;
+    color: #ffffff ;
+    background: radial-gradient(circle at left bottom,#221353 5% ,#090614 25%, #090614 75%);
+}
+
+.content {
+    max-width: 50%;
+    margin-left: 150px;
+    margin-top: 30px;
+
+}
+
+.content h1{  
+    font-size: 72px;
+    font-weight: 700;
+}
+
+.content p {
+    font-weight: 400;
+    font-size: 22px;
+    margin-bottom: 50px;
+    margin-top: -40px;
+}
+
+.image  {
+    max-width: 100%;
+    height: auto;
+    position: relative;
+    left: -100px;
+    padding: 30px;
+    margin-top: 50px;
+}
+
+
