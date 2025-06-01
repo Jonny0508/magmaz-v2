@@ -1,0 +1,77 @@
+
+  
+  .card {
+    background-color: #ccbcf8;
+    border-radius: 25px;
+    padding: 30px 30px 50px ;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: relative;
+    width: 360px;
+    height: 555px;
+    transition: transform 0.3s ease;
+    color: #301b78;
+    
+    
+  }
+  
+  .card:hover {
+    transform: translateY(-10px);
+  }
+  
+  .recommended {
+    border: 2px solid #ccbcf8; /* Color destacado para el card recomendado */
+  }
+  
+  .recommendedTag {
+    position: absolute;
+    top: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #9774f4;
+    color: #ccbcf8;
+    padding: 5px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    width: 320px;
+    text-align: center;
+  }
+  
+  .cardTitle {
+    font-weight: 700;
+    text-align: start;
+    margin: 30px 0;
+    font-size: 24px;
+    color: #301b78;
+  }
+  .span {
+    text-align: start;
+    font-size: 50px;
+    font-weight: 700;
+  }
+  
+  .lista{
+    text-align: start;
+    list-style-type: none;
+    margin: 10px 0;
+    
+
+
+  }
+
+ .li {
+    
+    font-weight: 400;
+    font-size: 19px;
+    margin: 10px 0;
+    text-align: start;
+    
+ }
+
+  
+  .icon {
+    position: relative;
+    left: -20px;
+    margin:  0px;
+
+  }
+ 

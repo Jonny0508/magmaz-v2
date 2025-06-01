@@ -1,0 +1,38 @@
+.plans {
+  padding: 40px 20px;
+  margin: 0;
+  height: 100%;
+  background: radial-gradient(circle at left center,#221353 5% ,#090614 25%, #090614 75%);
+  color: #f4f4f4;
+
+}
+.title h1{
+    font-weight: 700;
+    font-size: 76px;
+    line-height: 50.4px;
+    position: relative;
+    left: 785px;
+    background: linear-gradient(to right, #8061e7 5%, #a58def 85%); /* Gradiente lineal */
+    -webkit-background-clip: text;  /* Aplica el fondo al texto */
+    -webkit-text-fill-color: transparent; 
+    padding: 10px;
+}
+
+.title p {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 24px;
+    text-align: center;
+    margin-left: -90px;
+    padding-bottom: 30px;
+
+}
+
+.containerPlans{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 100px 0 100px 130px;
+  align-items: center;
+ 
+  
+}

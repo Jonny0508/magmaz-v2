@@ -1,0 +1,68 @@
+/* Estilos del contenedor principal */
+.container {
+    display: flex;                /* flex */
+    justify-content: center;       /* justify-center */
+    align-items: center;           /* items-center */            /* min-h-screen */
+  }
+  
+  /* Estilos del contenedor interno */
+  .innerContainer {
+    background-color: #251561;     /* bg-indigo-900 */
+    padding: 10px;              /* p-1 */
+    border-radius: 9999px;         /* rounded-full */
+    display: flex;                 /* flex */
+    position: relative;
+    width: 500px;            /* relative */
+    right: 20px;
+  }
+  
+  /* Botones */
+  .button {
+    background-color: transparent;
+    border: none;
+    padding-left: 1rem;            /* px-4 */
+    padding-right: 1rem;           /* px-4 */
+    padding-top: 0.5rem;           /* py-2 */
+    padding-bottom: 0.5rem;        /* py-2 */
+    font-size: 16px;           /* text-sm */
+    font-weight: 400;              /* font-medium */
+    transition: color 0.2s ease-in-out;  /* transition-colors + duration-200 + ease-in-out */
+    position: relative;            /* relative */
+    z-index: 10; 
+    width: 180px;                  /* z-10 */
+    cursor: pointer;
+  }
+  
+  /* Estilo dinámico de texto (blanco) */
+  .textWhite {
+    color: white;                  /* text-white */
+  }
+  
+  /* Estilo dinámico de texto (indigo-900) */
+  .textIndigo900 {
+    color: #fff;                /* text-indigo-900 */
+  }
+  
+  /* Indicador dinámico */
+  .indicator {
+    position: absolute;            /* absolute */
+    top: 0.25rem;                  /* top-1 */
+    bottom: 0.25rem;               /* bottom-1 */
+    width: 33.3333%;               /* w-1/3 */
+    background-color: #301b78;       /* bg-white */
+    border-radius: 9999px;         /* rounded-full */
+    transition: transform 0.2s ease-in-out;  /* transition-transform + duration-200 + ease-in-out */
+  }
+  
+  /* Posiciones para el indicador */
+  .left1 {
+    left: 0.25rem;                 /* left-1 */
+  }
+  
+  .left1_3 {
+    left: 33.3333%;                /* left-1/3 */
+  }
+  
+  .left2_3 {
+    left: 66.6667%;                /* left-2/3 */
+  }
