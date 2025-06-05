@@ -1,0 +1,35 @@
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .modal {
+    background: #1a0748;
+    color: white;
+    padding: 20px 40px 60px 40px;
+    border-radius: 20px;
+    text-align: center;
+    width: 490px;
+    height: 543px;
+  }
+  
+  .modal .icon {
+    font-size: 50px;
+    color: green;
+  }
+  
+  .icon{
+    margin-top: 70px;
+  }
+ 
+  .parrafo{
+    margin-bottom: 70px;
+  }

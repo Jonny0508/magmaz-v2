@@ -16,7 +16,7 @@ export default function Hero() {
                  Desata el poder de tu presencia online con nuestro hosting web,<br/>
                 juegos y servidores virtuales de alto rendimiento
              </p>
-            <Button label={'Ver Planes'}  style={undefined} href={'/Plans'}/>
+            <Button label={'Ver Planes'}  style={undefined} href={'/plans'}/>
         </div>
     
             <Image  src="/images/hero.png" className={styles.image} alt="hero" width={543} height={464}  />

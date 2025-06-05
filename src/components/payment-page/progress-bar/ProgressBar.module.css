@@ -1,0 +1,62 @@
+/* styles/ProgressBar.module.css */
+.progressContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 600px;
+    margin: auto;
+    padding: 20px 0;
+  }
+  
+  .stepContainer {
+    display: flex;
+    flex-direction: row-reverse;
+    
+    
+  }
+  
+  .step {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 20px;
+    
+  }
+  
+  .active {
+    background-color: #a192fc;
+  }
+  
+  .check {
+    display: block;
+  }
+  
+  .active .check {
+    display: block;
+  }
+  
+  .label {
+    margin: 5px 1px;
+    padding: 0px 20px ;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+  }
+  
+  .activeText {
+    color: #a192fc;
+  }
+  
+  .line {
+    flex-grow: 1;
+    height: 2px;
+    background-color: gray;
+    max-width: 20px;
+    margin: 0px;
+  }

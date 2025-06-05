@@ -1,0 +1,140 @@
+.container {
+    width: 100%;
+    max-width: 900px;
+    padding: 24px;
+    margin: 0 auto;
+    border-radius: 8px;
+    color: white;
+  }
+  
+  .title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 24px;
+    color: white;
+  }
+  
+  .productList {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+  }
+  
+  .productItem {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  .productInfo {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+  }
+  
+  .productImage {
+    border-radius: 6px;
+    overflow: hidden;
+  }
+  
+  .productDetails {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .productName {
+    font-weight: 500;
+    color: white;
+    margin: 0 0 4px 0;
+  }
+  
+  .quantityLabel {
+    color: #a0a0a0;
+    font-size: 14px;
+    margin: 0 0 4px 0;
+  }
+  
+  .quantityControls {
+    display: flex;
+    align-items: center;
+    margin-top: 4px;
+  }
+  
+  .quantityButton {
+    width: 32px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #2a1e48;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  .quantityButton:hover {
+    background-color: #3a2e58;
+  }
+  
+  .quantityValue {
+    margin: 0 12px;
+    color: white;
+  }
+  
+  .productActions {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+  
+  .productPrice {
+    font-weight: 500;
+    color: white;
+  }
+  
+  .deleteButton {
+    background: none;
+    border: none;
+    color: #a0a0a0;
+    cursor: pointer;
+    transition: color 0.2s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .deleteButton:hover {
+    color: white;
+  }
+  
+  .emptyCart {
+    text-align: center;
+    padding: 32px 0;
+    color: #a0a0a0;
+  }
+  
+  .cartFooter {
+    margin-top: 24px;
+    padding-top: 16px;
+    border-top: 1px solid #2a1e48;
+  }
+  
+  .totalRow {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .totalLabel {
+    font-weight: 500;
+    color: white;
+  }
+  
+  .totalAmount {
+    font-weight: 700;
+    font-size: 20px;
+    color: white;
+  }

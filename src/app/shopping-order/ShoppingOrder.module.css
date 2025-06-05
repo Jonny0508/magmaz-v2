@@ -1,0 +1,32 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centra el componente 1 */
+    width: 100%;
+    height: 100vh;
+    background: radial-gradient(circle at left center,#221353 5% ,#090614 25%, #090614 75%);
+}
+
+.head {
+    width: 650px;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 20px; /* Espacio entre el componente 1 y los demás */
+    margin-top: 20px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between; /* Uno a la izquierda y otro a la derecha */
+    width: 100%;
+    
+  }
+
+ .rith {
+    margin-top: 50px;
+    margin-left: 200px;
+  }
+  .left {
+    margin-top: 50px;
+    margin-right: 200px;
+  }

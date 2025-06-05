@@ -37,7 +37,7 @@ export default function RootLayout({
             <Button label="Iniciar Sesion" style={{ position: 'absolute', top: '25px', right: '500px', marginRight: '70px' }} href={'/login'} />
             <Button label="Registrame" style={{ position: 'absolute', top: '25px', right: '300px' }} href={'/register'} />
 
-            <Link href={'/ShoppingOrder'}>
+            <Link href={'/shopping-order'}>
             <Image   src="/icons/icocar.png" className='iconCarrito' alt="Carrito" width={26.07} height={24.06}  />
             </Link>
         </header>

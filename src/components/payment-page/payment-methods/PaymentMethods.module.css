@@ -1,0 +1,111 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    width: 100%;
+    max-width: 28rem;
+    margin: 0 auto;
+    color: white;
+  }
+  
+  .title {
+    font-size: 1.7rem;
+    font-weight: 500;
+    margin-bottom: 1.5rem;
+  }
+  
+  .optionsContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    width: 700px;
+  }
+  
+  .paymentOption {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem;
+  }
+  
+  .optionLeft {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+  }
+  
+  .radioInput {
+    appearance: none;
+    width: 1.25rem;
+    height: 1.25rem;
+    border: 2px solid white;
+    border-radius: 50%;
+    outline: none;
+    cursor: pointer;
+    position: relative;
+  }
+  
+  .radioInput:checked {
+    border-color: #4361ee;
+    background-color: transparent;
+  }
+  
+  .radioInput:checked::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 0.625rem;
+    height: 0.625rem;
+    border-radius: 50%;
+    background-color: #4361ee;
+  }
+  
+  .optionLabel {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+  }
+  
+  .optionTitle {
+    font-weight: 500;
+  }
+  
+  .optionDescription {
+    font-size: 0.875rem;
+    color: #a0a0a0;
+  }
+  
+  .logoContainer {
+    height: 2.5rem;
+    width: 2.5rem;
+    position: relative;
+  }
+  
+  .singleLogo {
+    border-radius: 50%;
+    background-color: white;
+    padding: 0.25rem;
+  }
+  
+  .binanceLogo {
+    background-color: #f0b90b;
+  }
+  
+  .cardLogosContainer {
+    display: flex;
+    gap: 0.25rem;
+  }
+  
+  .cardLogo {
+    height: 2rem;
+    width: 2rem;
+    border-radius: 50%;
+    background-color: white;
+    padding: 0.25rem;
+  }
+  
+ 
+  

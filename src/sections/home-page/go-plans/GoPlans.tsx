@@ -15,7 +15,7 @@ export default function GoPlans() {
                          Descubre Aqui los Planes Perfectos para<br/>
                             Potenciar tu Proyecto Digital
                     </p>
-             <Button label={'Ver Planes'} href={'/Plans'} style={{backgroundColor:'white', color:'#6c5da1'}}/>
+             <Button label={'Ver Planes'} href={'/plans'} style={{backgroundColor:'white', color:'#6c5da1'}}/>
             </div>
             <Image  src="/images/Goplans.png" className={styles.imageGoPlans} alt="hero" width={543} height={464}  />
         </section>
