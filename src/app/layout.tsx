@@ -30,12 +30,12 @@ export default function RootLayout({
             <nav>
                 <ul>
                 <Link href="/"> Inicio </Link>
-                <Link href="/Plans">Planes</Link>   
+                <Link href="/plans">Planes</Link>   
                 </ul>      
             </nav>
 
-            <Button label="Iniciar Sesion" style={{ position: 'absolute', top: '25px', right: '500px', marginRight: '70px' }} href={'/Login'} />
-            <Button label="Registrame" style={{ position: 'absolute', top: '25px', right: '300px' }} href={'/Register'} />
+            <Button label="Iniciar Sesion" style={{ position: 'absolute', top: '25px', right: '500px', marginRight: '70px' }} href={'/login'} />
+            <Button label="Registrame" style={{ position: 'absolute', top: '25px', right: '300px' }} href={'/register'} />
 
             <Link href={'/ShoppingOrder'}>
             <Image   src="/icons/icocar.png" className='iconCarrito' alt="Carrito" width={26.07} height={24.06}  />

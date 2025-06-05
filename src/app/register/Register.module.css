@@ -1,0 +1,273 @@
+/* Auth.module.css */
+.authContainer {
+    display: flex;
+    height: 100vh;
+    background: radial-gradient(circle at left center,#221353 5% ,#090614 25%, #090614 75%);
+  }
+  
+  .inputContainer {
+    margin-bottom: 20px;
+    margin-top: 10px;
+    margin-right: 200px;
+  }
+
+
+  .toggleButton {
+    background-color: transparent;
+    border: none;
+    padding-left: 1rem;            /* px-4 */
+    padding-right: 1rem;           /* px-4 */
+    padding-top: 0.5rem;           /* py-2 */
+    padding-bottom: 0.5rem;        /* py-2 */
+    font-size: 16px;           /* text-sm */
+    font-weight: 400;              /* font-medium */
+    transition: color 0.2s ease-in-out;  /* transition-colors + duration-200 + ease-in-out */
+    position: relative;            /* relative */
+    z-index: 10; 
+    width: 180px;     
+  }
+  
+  .toggleButton:hover {
+    color: #0056b3;
+  }
+
+
+ 
+  .formColumn {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    
+  }
+  
+  .imageColumn {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+    overflow: hidden; /* Para que la imagen no se desborde */
+  }
+  
+  .authImage {
+    width: 713px;
+    height: 718px;
+    object-fit: cover; /* Ajusta la imagen al contenedor */
+  }
+
+  #subtitulo {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21.6px;
+    color: #ffffff;
+    margin: 0 500px 0px 10px;
+    
+
+  }
+
+ #titulo {
+    font-size: 50px;
+    font-weight: 700;
+    margin: 0px 90px 20px 0px;
+    line-height: 50.4px;
+    background: linear-gradient(to right, #5932DE 5%, #CCBCF8 85%);
+    -webkit-background-clip: text;  /* Aplica el fondo al texto */
+    -webkit-text-fill-color: transparent; 
+  }
+
+  /* login */
+  .login__label {
+    display: block;
+    padding-left: 1rem;
+  }
+
+.login__label,
+.login__labelcheckbox {
+	color: #fff;
+	font-size: 18px;
+	margin-bottom: 1rem;
+}
+
+.login__labelcheckbox {
+	display: inline-block;
+	position: relative;
+	padding-left: 1.5rem;
+	margin-top: 2rem;
+	margin-left: 1rem;
+	color: #ffffff;
+	font-size: .75rem;
+	text-transform: inherit;
+}
+
+.login__input {
+	color: white;
+	font-size: 1.15rem;
+	width: 100%;
+	padding: 16px 104px 16px 16px;
+	border: 2px solid transparent;
+	outline: none;
+	border-radius: 1.5rem;
+	background-color: #301b78;
+	letter-spacing: 1px;
+}
+
+.login__input:hover,
+.login__input:focus{
+	color: white;
+	border: 2px solid rgba(255, 255, 255, 0.5);
+	background-color: transparent;
+}
+
+.login__input + .login__label {
+	margin-top: 1.5rem;
+}
+
+.login__inputcheckbox {
+	position: relative;
+	top: .1rem;
+	left: -10px;
+	margin: 0 0px;
+  color: #301b78;
+}
+
+
+.login__forgot {
+	
+	text-align: right;
+  margin: 30px 0px 0px 200px;     
+	font-size: .75rem;
+	text-decoration: none;
+	position: absolute;
+
+}
+
+.eyeButton {
+  position: relative;
+  right: -460px;
+  top: 50%;
+  transform: translateY(-190%);
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #888;
+  display: flex;
+  align-items: center;
+}
+
+/* input register names */
+.inputContainer2{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px; /* Espacio entre filas */
+  max-width: 600px;
+  margin: auto;
+}
+
+.login__inputname{
+  color: white;
+	font-size: 1.15rem;
+	width: 40%;
+	padding: 16px 80px 16px  16px;
+	border: 2px solid transparent;
+	outline: none;
+	border-radius: 1.5rem;
+	background-color: #301b78;
+	letter-spacing: 1px;
+  margin-top: 1rem;
+ 
+} 
+
+.login__labelname {
+  display: block;
+  padding-left: 10px;
+  color: #fff;
+  padding-top: 10px;
+}
+
+.login__inputname:hover,
+.login__inputname:focus{
+	color: white;
+	border: 2px solid rgba(255, 255, 255, 0.5);
+	background-color: transparent;
+}
+
+@media (max-width: 668px) {
+  .nameFields {
+    grid-template-columns: 1fr; /* Una sola columna en pantallas pequeñas */
+  }
+}
+
+
+/* boton de registro */
+
+.container {
+  display: flex;                /* flex */
+  justify-content: center;       /* justify-center */
+  align-items: center;  
+  margin: 20px 80px 20px 20px;         /* items-center */            /* min-h-screen */
+}
+
+/* Estilos del contenedor interno */
+.innerContainer {
+  background-color: #251561;     /* bg-indigo-900 */
+  padding: 10px;              /* p-1 */
+  border-radius: 9999px;         /* rounded-full */
+  display: flex;                 /* flex */
+  position: relative;
+  width: 350px;            /* relative */
+  right: 20px;
+}
+
+/* Botones */
+.button {
+  background-color: transparent;
+  border: none;
+  padding-left: 1rem;            /* px-4 */
+  padding-right: 1rem;           /* px-4 */
+  padding-top: 0.5rem;           /* py-2 */
+  padding-bottom: 0.5rem;        /* py-2 */
+  font-size: 16px;           /* text-sm */
+  font-weight: 400;              /* font-medium */
+  transition: color 0.2s ease-in-out;  /* transition-colors + duration-200 + ease-in-out */
+  position: relative;            /* relative */
+  z-index: 10; 
+  width: 180px;                  /* z-10 */
+  cursor: pointer;
+}
+
+/* Estilo dinámico de texto (blanco) */
+.textWhite {
+  color: white;                  /* text-white */
+}
+
+/* Estilo dinámico de texto (indigo-900) */
+.textIndigo900 {
+  color: #fff;                /* text-indigo-900 */
+}
+
+/* Indicador dinámico */
+.indicator {
+  position: absolute;            /* absolute */
+  top: 0.20rem;                  /* top-1 */
+  bottom: 0.20rem;               /* bottom-1 */
+  width: 49%;                  /* w-1/3 */
+  background-color: #301b78;       /* bg-white */
+  border-radius: 9999px;         /* rounded-full */
+  transition: transform 0.2s ease-in-out;  /* transition-transform + duration-200 + ease-in-out */
+}
+
+/* Posiciones para el indicador */
+.left1 {
+  left: 0.40rem;        /* left-1 */
+}
+
+.left1_3 {
+  left: 50%;                /* left-1/3 */
+}
+
+.left2_3 {
+  left: 0%;                /* left-2/3 */
+}
